@@ -1,11 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace TFC.Framework.Core
 {
-
     /// <summary>
     /// Stringの拡張メソッドクラス
     /// </summary>
@@ -22,7 +18,6 @@ namespace TFC.Framework.Core
             return value ?? "";
         }
 
-
         /// <summary>
         /// 指定した文字列が最初に見つかった場所以降を切り捨てた文字列を返します。
         /// </summary>
@@ -36,23 +31,6 @@ namespace TFC.Framework.Core
             var index = value.IndexOf(target);
 
             if (index < 0) return value;
-
-            return value.Substring(0, index);
-        }
-
-        /// <summary>
-        /// 指定した文字列の、指定したインデックス以降を切り捨てた文字列を返します。
-        /// </summary>
-        /// <param name="value"> 文字列</param>
-        /// <param name="index"> インデックス </param>
-        /// <returns></returns>
-        public static string Truncate(this string value, int index)
-        {
-            if (index < 0) throw new ArgumentException(string.Format("bad index:{0}", index));
-
-            if (string.IsNullOrEmpty(value)) return value.EnsureNotNull();
-
-            if (value.Length < index) index = value.Length;
 
             return value.Substring(0, index);
         }
@@ -152,7 +130,6 @@ namespace TFC.Framework.Core
             return string.IsNullOrEmpty(value) ? null : value;
         }
 
-
         /// <summary>
         /// 大文字小文字の区別を無視して文字列を比較します。
         /// </summary>
@@ -161,7 +138,6 @@ namespace TFC.Framework.Core
         /// <returns></returns>
         public static bool EqualsIgnoreCase(this string value, string target)
         {
-            if (value == null) return false;
             return value.Equals(target, StringComparison.OrdinalIgnoreCase);
         }
     }
