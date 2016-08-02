@@ -12,7 +12,7 @@
         /// <returns>数値型である場合は True</returns>
         public static bool IsNumeric(this object value)
         {
-            return ConvertUtil.ToDecimalOrNull(value).HasValue;
+            return ConvertUtil.ToNullableDecimal(value).HasValue;
         }
     }
 }

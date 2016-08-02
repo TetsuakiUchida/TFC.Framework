@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>TFC.Framework.Core</id>
+    <version>1.0.0</version>
+    <title>TFC.Framework.Core</title>
+    <authors>TFC Software</authors>
+    <owners>TFC Softwar</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Benri na Libraries</description>
+    <copyright>Copyright (C)  2016</copyright>
+    <dependencies />
+  </metadata>
+  <files>
+    <file src="TFC.Framework.Core\bin\Release\TFC.Framework.Core.dll" target="lib\net40" />
+    <file src="TFC.Framework.Core35\bin\Release\TFC.Framework.Core35.dll" target="lib\net35" />
+  </files>
+</package>

@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TFC.Framework.Core", "TFC.F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TFC.Framework.Core35", "TFC.Framework.Core35\TFC.Framework.Core35.csproj", "{28AA4352-1FDC-45DB-B90F-1113580743A4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{3D463029-5A1A-4103-94F4-753EAAF792AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TFC.Framework.Core.Test", "TFC.Framework.Core.Test\TFC.Framework.Core.Test.csproj", "{5014332A-3E1E-46FF-A565-E6D4EDF4AAD6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,8 +25,15 @@ Global
 		{28AA4352-1FDC-45DB-B90F-1113580743A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28AA4352-1FDC-45DB-B90F-1113580743A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28AA4352-1FDC-45DB-B90F-1113580743A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5014332A-3E1E-46FF-A565-E6D4EDF4AAD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5014332A-3E1E-46FF-A565-E6D4EDF4AAD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5014332A-3E1E-46FF-A565-E6D4EDF4AAD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5014332A-3E1E-46FF-A565-E6D4EDF4AAD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5014332A-3E1E-46FF-A565-E6D4EDF4AAD6} = {3D463029-5A1A-4103-94F4-753EAAF792AE}
 	EndGlobalSection
 EndGlobal
