@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>TFC.Framework.Core</id>
-    <version>1.0.0.1</version>
+    <version>1.0.0.2</version>
     <title>TFC.Framework.Core</title>
     <authors>TFC Software</authors>
     <owners>TFC Softwar</owners>

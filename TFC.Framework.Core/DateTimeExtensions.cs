@@ -47,5 +47,15 @@ namespace TFC.Framework.Core
             if (value == DateTime.MaxValue) return value;
             return value.AddMonths(1).GetBeginningOfMonth().AddDays(-1);
         }
+
+        /// <summary>
+        /// 日本標準時（UTC+9）に変換します
+        /// </summary>
+        /// <param name="value"></param>
+        /// <returns></returns>
+        public static DateTime ToLocalTimeJPN(this DateTime value)
+        {
+            return value.ToUniversalTime().AddHours(9);
+        }
     }
 }
