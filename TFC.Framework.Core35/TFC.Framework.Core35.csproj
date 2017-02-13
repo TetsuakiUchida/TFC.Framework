@@ -44,6 +44,9 @@
     <Compile Include="..\TFC.Framework.Core\DateTimeExtensions.cs">
       <Link>DateTimeExtensions.cs</Link>
     </Compile>
+    <Compile Include="..\TFC.Framework.Core\EnumUtil.cs">
+      <Link>EnumUtil.cs</Link>
+    </Compile>
     <Compile Include="..\TFC.Framework.Core\StringExtensions.cs">
       <Link>StringExtensions.cs</Link>
     </Compile>
